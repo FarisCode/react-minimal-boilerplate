@@ -8,15 +8,19 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          REACT + REDUX + REDUX-DEVTOOLS + CONNECTED REACT ROUTER + AXIOS
         </p>
+        <p>
+          Minimal Boilerplate
+        </p>
+        <span>Author: </span>
         <a
           className="App-link"
-          href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
+          href="https://fariscode.github.io/"
         >
-          Learn React
+          Syed Faris Ahmed
         </a>
       </header>
     </div>

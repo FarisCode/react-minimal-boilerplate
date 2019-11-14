@@ -6,7 +6,7 @@ const api = "xyz.apiEndpoint.com";
 export const fetchToken = () => JSON.parse(localStorage.getItem('idToken'));
 
 //Use below function to make HTTP API calls
-export const request = (url, data, type, noHeaders, params) => new Promise((resolve, reject) => {
+export default (url, data, type, noHeaders, params) => new Promise((resolve, reject) => {
   let token = '';
   let apiUrl = api;
   const requestObj = {
